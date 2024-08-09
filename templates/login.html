@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+
+<center><h2 id="success">Hello {{ name }}!</h2></center>
+<center><div id="success2">You have registered successfully</div></center>
+<h2>Hello login page</h2>
+<button onclick="handleclick()" id="btn">Add text</button>
+<h1 class="root"></h1>
+
+
+<style>
+    #success{
+        height: 80px;
+        width: 900px;
+        background-color: green;
+        font-size: 60px;
+        color: cornflowerblue;
+        border-radius: 10px;
+    }
+
+    #success2{
+        height: 70px;
+        width: 600px;
+        background-color: green;
+        font-size: 45px;
+        color: cornflowerblue;
+        border-radius: 10px;
+    }
+
+    #btn{
+        margin-left: 10px;
+    }
+
+
+
+</style>
+<script>
+
+    let root = document.querySelector(".root")
+    console.log(root);
+    
+
+
+
+    function handleclick() {
+        console.log("button was clicked");
+        root.innerHTML = "Text was added successfully by clicking the buttom"
+        root.style.color = "red"
+        
+    }
+
+</script>
+{% endblock %}
