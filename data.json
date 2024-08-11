@@ -1,0 +1,62 @@
+[
+    {
+        "id": 0,
+        "name": "Saba",
+        "lastname": "Minadze",
+        "age": 17,
+        "sallaryPerMounth": "1000",
+        "isEmployed": true,
+        "profession": "backEnd-Developer",
+        "githubLink": "https://github.com/SabaMinadze"
+    },
+    {
+        "id": 1,
+        "name": "Nini",
+        "lastname": "Minadze",
+        "age": 17,
+        "sallaryPerMounth": "500",
+        "isEmployed": true,
+        "profession": "frontEnd-Developer",
+        "githubLink": "https://www.instagram.com/niniminadze16/"
+    },
+    {
+        "id": 2,
+        "name": "Guram",
+        "lastname": "Diasamidze",
+        "age": 16,
+        "sallaryPerMounth": "0",
+        "isEmployed": false,
+        "profession": "IndieGame-Developer",
+        "githubLink": "https://www.instagram.com/guramdiasamize/"
+    },
+    {
+        "id": 3,
+        "name": "Tamuni",
+        "lastname": "Latcabidze",
+        "age": 48,
+        "sallaryPerMounth": "0",
+        "isEmployed": false,
+        "profession": "neurologist ",
+        "githubLink": "https://www.instagram.com/lacabidzetamuna/"
+    },
+    {
+        "id": 4,
+        "name": "Roland",
+        "lastname": "Minadze",
+        "age": 48,
+        "sallaryPerMounth": "3000",
+        "isEmployed": true,
+        "profession": "CEO of private security company Algani",
+        "githubLink": "none"
+    },
+    {
+        "id": 5,
+        "name": "Marita",
+        "lastname": "Kvirikasvili",
+        "age": 44,
+        "sallaryPerMounth": "7000",
+        "isEmployed": true,
+        "profession": "dental surgeon",
+        "githubLink": "https://www.instagram.com/marita_kv/"
+    }
+]
